@@ -1,6 +1,8 @@
 ## How i built pa_cheeseburger :
 
-#### SKIA will fail to compile. You need [that commit](https://github.com/AOSP-CAF/platform_external_skia/commit/9cd042619597a6d0ddf32adf7cb2574a07c033a7) : 
+### [device tree](https://github.com/dekefake/android_device_oneplus_cheeseburger)
+
+#### SKIA will fail to compile. You need [that commit](https://github.com/AOSP-CAF/platform_external_skia/commit/9cd042619597a6d0ddf32adf7cb2574a07c033a7). 
 
 
 #### Fix.zip :
@@ -11,7 +13,7 @@ contains OOS 4.5.8 camera related binaries. I wasnt able to fix camera, so i tri
 
 
 #### TWRP flash :
-flash pa build, fix, supersu2.82, (and camera build)
+flash pa_cheeseburger build, fix.zip, supersu2.82, (and camerafix.zip)
 
 
 ###### if you clean flashed, TWRP terminal emulator :
