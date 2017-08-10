@@ -2,7 +2,6 @@
 
 ### [device tree](https://github.com/dekefake/android_device_oneplus_cheeseburger)
 
-#### SKIA will fail to compile. You need [that commit](https://github.com/AOSP-CAF/platform_external_skia/commit/9cd042619597a6d0ddf32adf7cb2574a07c033a7). 
 
 
 #### Fix.zip :
@@ -25,7 +24,7 @@ cp /system/su.d/permissive.sh /supersu/su.d/permissive.sh
 chmod 777 /supersu/su.d/permissive.sh
 ```
 
-#### reboot and profit
+#### Reboot and profit.
 
 #### Status :
 ###### Working :
