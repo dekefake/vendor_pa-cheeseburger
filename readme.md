@@ -21,8 +21,8 @@ flash pa_cheeseburger build, fix.zip, supersu2.82, (and camerafix.zip)
 ```
 mkdir /supersu
 mount -o loop /data/su.img /supersu
-cp /system/su.d/permissive.sh /su/su.d/permissive.sh
-chmod 777 /su/su.d/permissive.sh
+cp /system/su.d/permissive.sh /supersu/su.d/permissive.sh
+chmod 777 /supersu/su.d/permissive.sh
 ```
 
 #### reboot and profit
