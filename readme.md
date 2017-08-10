@@ -27,5 +27,24 @@ chmod 777 /su/su.d/permissive.sh
 
 #### reboot and profit
 
+#### Status :
+###### Working :
+* Wifi
+* Bluetooth
+* RIL
+* GPS
+* Sensors
+* Fingerprint
+* Alert slider (Including awesome AOSPA implementation)
+* Dash Charge (Including message on lock screen)
+
+###### Not working :
+* Bluetooth A2DP
+* Camera (Video doesnt works, camera only works using fix zip)
+* Enforcing mode
+* Gestures
+
 ![About Phone](https://raw.githubusercontent.com/dekefake/vendor_pa-cheeseburger/master/about.png)
+
+
 
