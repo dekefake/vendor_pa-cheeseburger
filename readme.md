@@ -27,3 +27,5 @@ chmod 777 /su/su.d/permissive.sh
 
 #### reboot and profit
 
+![About Phone](https://raw.githubusercontent.com/dekefake/vendor_pa-cheeseburger/master/about.png)
+
