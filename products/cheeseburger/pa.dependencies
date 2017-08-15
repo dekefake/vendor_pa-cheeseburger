@@ -13,14 +13,20 @@
   },
   {
         "remote":       "github",
-        "repository":   "dekefake/android_vendor_oneplus_cheeseburger",
-        "target_path":  "vendor/oneplus/cheeseburger",
-        "revision":     "mkn-mr1"
+        "repository":   "AOSiP-Devices/platform_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "nougat-mr2"
   },
   {
         "remote":       "github",
         "repository":   "CarbonROM/android_kernel_oneplus_msm8998",
         "target_path":  "kernel/oneplus/msm8998",
+        "revision":     "cr-5.1"
+  },
+  {
+        "remote":       "github",
+        "repository":   "dekefake/android_device_oneplus_cheeseburger",
+        "target_path":  "device/oneplus/cheeseburger",
         "revision":     "cr-5.1"
   }
 ]
