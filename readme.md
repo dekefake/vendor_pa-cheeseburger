@@ -4,7 +4,7 @@
 
 ### [pocket judge kernel commit](https://github.com/dekefake/android_kernel_oneplus_msm8998/commit/e16f9b2c39b0d6b0e173c0193b2fb5f6c157bb80)
 
-#### [libcameraservice fix commit](https://github.com/dekefake/android_frameworks_av/commit/e238929654f52317ddc1cc49964c6fdebb85a6ff)
+### [libcameraservice fix commit](https://github.com/dekefake/android_frameworks_av/commit/e238929654f52317ddc1cc49964c6fdebb85a6ff)
 You need that commit onto AOSPA frameworks/av repo to get camera working.
 
 
