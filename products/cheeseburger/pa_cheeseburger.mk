@@ -38,7 +38,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=OnePlus/OnePlus5/OnePlus5:7.1.1/NMF26X/07311003:user/release-keys
-    PRIVATE_BUILD_DESC="OnePlus5-user 7.1.1 NMF26X 230 dev-keys"
+    PRIVATE_BUILD_DESC="OnePlus5-user 7.1.1 NMF26X 230 release-keys"
 
 # Paranoid Android platform
 include vendor/pa/main.mk
