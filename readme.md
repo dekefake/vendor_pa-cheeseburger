@@ -2,7 +2,7 @@
 
 ### [device tree](https://github.com/dekefake/android_device_oneplus_cheeseburger)
 
-### [pocket judge kernel commit](https://github.com/dekefake/android_kernel_oneplus_msm8998/commit/e16f9b2c39b0d6b0e173c0193b2fb5f6c157bb80)
+### [pocket judge kernel commit](https://github.com/dekefake/android_kernel_oneplus_msm8998-1/commit/5db3986f212fe92acead9cd244a0452675e0ec0b)
 
 ### [libcameraservice fix commit](https://github.com/dekefake/android_frameworks_av/commit/e238929654f52317ddc1cc49964c6fdebb85a6ff)
 You need that commit onto AOSPA frameworks/av repo to get camera working.
@@ -19,6 +19,7 @@ flash pa_cheeseburger build, enjoy
 * Bluetooth
 * RIL
 * GPS
+* NFC (no paying)
 * Sensors
 * Fingerprint
 * Alert slider (Including awesome AOSPA implementation)
@@ -31,6 +32,7 @@ flash pa_cheeseburger build, enjoy
 * Pocket Judge
 
 ###### Not working :
+* Seems NFC cant pay
 * Tell me
 
 ![About Phone](https://raw.githubusercontent.com/dekefake/vendor_pa-cheeseburger/master/about.png)
