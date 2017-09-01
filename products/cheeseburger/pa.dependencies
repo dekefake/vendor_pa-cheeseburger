@@ -19,9 +19,9 @@
   },
   {
         "remote":       "github",
-        "repository":   "carbonrom/android_kernel_oneplus_msm8998",
+        "repository":   "nathanchance/oneplus5",
         "target_path":  "kernel/oneplus/msm8998",
-        "revision":     "cr-5.1"
+        "revision":     "7.1.x-flash-custom"
   },
   {
         "remote":       "github",
