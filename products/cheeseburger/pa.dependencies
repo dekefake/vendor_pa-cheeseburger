@@ -13,9 +13,9 @@
   },
   {
         "remote":       "github",
-        "repository":   "AOSiP-Devices/platform_vendor_oneplus",
+        "repository":   "TheMuppets/proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
-        "revision":     "nougat-mr2"
+        "revision":     "cm-14.1"
   },
   {
         "remote":       "github",
