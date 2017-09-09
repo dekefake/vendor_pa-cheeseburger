@@ -21,7 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-
 include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration
@@ -37,8 +36,8 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=OnePlus/OnePlus5/OnePlus5:7.1.1/NMF26X/07311003:user/release-keys
-    PRIVATE_BUILD_DESC="OnePlus5-user 7.1.1 NMF26X 230 release-keys"
+    BUILD_FINGERPRINT=OnePlus/OnePlus5/OnePlus5:7.1.1/NMF26X/08141919:user/release-keys
+    PRIVATE_BUILD_DESC="OnePlus5-user 7.1.1 NMF26X 220 release-keys"
 
 # Paranoid Android platform
 include vendor/pa/main.mk
