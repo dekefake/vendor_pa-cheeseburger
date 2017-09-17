@@ -21,7 +21,7 @@
         "remote":       "github",
         "repository":   "nathanchance/oneplus5",
         "target_path":  "kernel/oneplus/msm8998",
-        "revision":     "7.1.x-flash-custom"
+        "revision":     "7.1.x-custom"
   },
   {
         "remote":       "github",
