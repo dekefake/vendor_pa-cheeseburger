@@ -25,6 +25,12 @@
   },
   {
         "remote":       "github",
+        "repository":   "nathanchance/gcc-prebuilts",
+        "target_path":  "prebuilts/gcc/linux-x86/aarch64/linaro-7.x",
+        "revision":     "aarch64-linaro-7.x"
+  },
+  {
+        "remote":       "github",
         "repository":   "dekefake/android_device_oneplus_cheeseburger",
         "target_path":  "device/oneplus/cheeseburger",
         "revision":     "cr-5.1"
