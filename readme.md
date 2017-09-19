@@ -22,7 +22,7 @@ KERNEL_CROSS_COMPILE := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch6
 ````
 to that one :
 ````
-KERNEL_CROSS_COMPILE := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/linaro-7.x/bin/aarch64-linaro-linux-androidkernel-
+KERNEL_CROSS_COMPILE := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/linaro-7.x/bin/aarch64-linaro-linux-android-
 ````
 
 Now, run an "rm -rf out" and "./rom-build.sh cheeseburger" again. Should build without hiccup.
