@@ -1,3 +1,5 @@
+## XDA Thread [here](https://forum.xda-developers.com/oneplus-5/development/unofficial-paranoid-android-7-2-2-aospa-t3658057) !
+
 ## How i built pa_cheeseburger :
 
 ### [device tree](https://github.com/dekefake/android_device_oneplus_cheeseburger)
