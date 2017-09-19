@@ -15,7 +15,18 @@ In their vendor/pa/products/AndroidProducts.mk, add the line from [my AndroidPro
 
 At this time you can launch building by running "./rom-build.sh cheeseburger" from your ANDROID_BUILD_TOP folder. This will sync the dependencies you need. Then it will start building. I recommend you to stop the building process once the dependencies are synced using CRTL+C or CRTL+Z (You may need to tap the command twice)
 Therefore, my repo's are all synced, but you miss the frameworks_av commit, and the kernel commits. Fell free to cherry-pick them from my repositories available [here](https://github.com/dekefake?tab=repositories).
+
+In build/kernel/tasks.mk you will need to change the CROSS_COMPILE variable for arm64 from that :
+````
+KERNEL_CROSS_COMPILE := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-androidkernel-
+````
+to that one :
+````
+KERNEL_CROSS_COMPILE := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/lianro-7.x/bin/aarch64-linaro-linux-androidkernel-
+````
+
 Now, run an "rm -rf out" and "./rom-build.sh cheeseburger" again. Should build without hiccup.
+
 
 #### TWRP flash :
 flash pa_cheeseburger build, enjoy
