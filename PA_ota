@@ -3,12 +3,12 @@
 "builds":1,
 "updates": [
     {
-      "name":"pa_cheeseburger-7.2.3-DEV-20170919-OTA.zip",
-      "version":"7.2.3",
-      "build":"20170919",
-      "size":16243792,
-      "url":"https://github.com/dekefake/vendor_pa-cheeseburger/raw/master/pa_cheeseburger-7.2.3-DEV-20170919-OTA.zip",
-      "md5":"a44b23c18c8557f3c2d11f409c234a39"
+      "name":"pa_cheeseburger-7.3.0-DEV-20171003-OTA.zip",
+      "version":"7.3.0",
+      "build":"20171004",
+      "size":16228244,
+      "url":"https://github.com/dekefake/vendor_pa-cheeseburger/raw/master/pa_cheeseburger-7.2.3-DEV-20171003-OTA.zip",
+      "md5":"7d4b68794571cd942bea1c191fc58972"
     }
   ]
 }
