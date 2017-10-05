@@ -1,6 +1,6 @@
 {
 "device":"cheeseburger",
-"builds":1,
+"builds":2,
 "updates": [
     {
       "name":"pa_cheeseburger-7.3.0-DEV-20171003-OTA.zip",
@@ -9,6 +9,14 @@
       "size":16228244,
       "url":"https://github.com/dekefake/vendor_pa-cheeseburger/raw/master/pa_cheeseburger-7.3.0-DEV-20171003-OTA.zip",
       "md5":"7d4b68794571cd942bea1c191fc58972"
+    },
+    {
+      "name":"pa_cheeseburger-7.3.0-DEV-20171005-OTA.zip",
+      "version":"7.3.0",
+      "build":"20171005",
+      "size":16221531,
+      "url":"https://github.com/dekefake/vendor_pa-cheeseburger/raw/master/pa_cheeseburger-7.3.0-DEV-20171005-OTA.zip",
+      "md5":"bafbdeb8545765782acbca973cf4cfe8"
     }
   ]
 }
