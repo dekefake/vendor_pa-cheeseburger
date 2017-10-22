@@ -29,7 +29,7 @@ $(call inherit-product, device/oneplus/cheeseburger/cheeseburger.mk)
 # Override AOSP build properties
 PRODUCT_NAME := pa_cheeseburger
 PRODUCT_DEVICE := cheeseburger
-PRODUCT_MODEL := Oneplus 5
+PRODUCT_MODEL := OnePlus 5
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 
@@ -37,7 +37,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=OnePlus/OnePlus5/OnePlus5:7.1.1/NMF26X/08141919:user/release-keys
-    PRIVATE_BUILD_DESC="OnePlus5-user 7.1.1 NMF26X 220 release-keys"
+    PRIVATE_BUILD_DESC="OnePlus5-user 7.1.1 NMF26X 08141919 dev-keys"
 
 # Paranoid Android platform
 include vendor/pa/main.mk
