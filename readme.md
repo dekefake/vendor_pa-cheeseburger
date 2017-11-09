@@ -13,9 +13,9 @@ You need that commit onto AOSPA frameworks/av repo to get camera working.
 First, repo sync [AOSPA](https://github.com/AOSPA/manifest).
 Once your sources are up, navigate to vendor/pa.
 In their vendorsetup, add the Oneplus 5 line from [my vendorsetup.sh](https://raw.githubusercontent.com/dekefake/vendor_pa-cheeseburger/master/vendorsetup.sh).
-In their vendor/pa/products/AndroidProducts.mk, add the line from [my AndroidProduct.mk](https://raw.githubusercontent.com/dekefake/vendor_pa-cheeseburger/master/products/AndroidProducts.mk) file, or just use mine and totally remplace their one. Create a folder vendor/pa/products/cheeseburger and add [my files](https://github.com/dekefake/vendor_pa-cheeseburger/tree/master/products/cheeseburger) inside the folder.
+In their vendor/pa/products/AndroidProducts.mk, add the line from [my AndroidProducts.mk](https://raw.githubusercontent.com/dekefake/vendor_pa-cheeseburger/master/products/AndroidProducts.mk) file, or just use mine and totally remplace their one. Create a folder vendor/pa/products/cheeseburger and add [my files](https://github.com/dekefake/vendor_pa-cheeseburger/tree/master/products/cheeseburger) inside the folder.
 
-At this time you can launch building by running "./rom-build.sh cheeseburger" from your ANDROID_BUILD_TOP folder. This will sync the dependencies you need. Then it will start building. I recommend you to stop the building process once the dependencies are synced using CRTL+C or CRTL+Z (You may need to tap the command twice)
+At this time you can launch building by running "./rom-build.sh cheeseburger -u" from your ANDROID_BUILD_TOP folder. This will sync the dependencies you need. Then it will start building. I recommend you to stop the building process once the dependencies are synced using CRTL+C or CRTL+Z (You may need to tap the command twice)
 Therefore, my repo's are all synced, but you miss the frameworks_av commit, and the kernel commits. Fell free to cherry-pick them from my repositories available [here](https://github.com/dekefake?tab=repositories).
 
 In build/kernel/tasks.mk you will need to change the CROSS_COMPILE variable for arm64 from that :
@@ -48,6 +48,7 @@ flash pa_cheeseburger build, enjoy
 * Dash Charge (Including message on lock screen)
 * Bluetooth A2DP
 * Camera (built from source)
+* USB-OTG
 * Enforcing mode
 * Video playing, mp4, flac, everything
 * Gestures
