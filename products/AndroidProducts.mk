@@ -15,4 +15,5 @@
 
 # CAF
     PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/cheeseburger/pa_cheeseburger.mk
+    $(LOCAL_DIR)/cheeseburger/pa_cheeseburger.mk \
+    $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk
